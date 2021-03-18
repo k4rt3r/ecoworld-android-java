@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         final Button btnCatalan = findViewById(R.id.btnCatalan);
         final Button btnEspanol = findViewById(R.id.btnEspanol);
         final Button btnIngles = findViewById(R.id.btnIngles);
-
+        //mainActivity
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
