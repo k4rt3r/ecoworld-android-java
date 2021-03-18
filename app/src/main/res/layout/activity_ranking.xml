@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondointroduccion"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtActivistName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/komika1"
+            android:textColor="@color/amarillo"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/imgActivist"
+            android:layout_width="366dp"
+            android:layout_height="419dp"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="584dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtClasificacion"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/komika1"
+                android:text="POSICIÓN"
+                android:textColor="@color/amarillo"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/txtNombreUsuario"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:fontFamily="@font/komika1"
+                android:text="NOMBRE"
+                android:textColor="@color/amarillo"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/txtPuntosUsuario"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:fontFamily="@font/komika1"
+                android:text="PUNTOS"
+                android:textColor="@color/amarillo"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lstRanking"
+            android:layout_width="580dp"
+            android:layout_height="400dp"></ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtScoreRanking"
+            android:layout_width="361dp"
+            android:layout_height="142dp"
+            android:fontFamily="@font/komika1"
+            android:gravity="center"
+            android:textColor="@color/amarillo"
+            android:textSize="@dimen/tamanoLetraPuntos"></TextView>
+
+        <Button
+            android:id="@+id/btnPlayAgain"
+            android:layout_width="@dimen/anchoBandera"
+            android:layout_height="90dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/buttonconborde"
+            android:fontFamily="@font/komika1"
+            android:gravity="center"
+            android:onClick="start"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnCredits"
+            android:layout_width="@dimen/anchoBandera"
+            android:layout_height="90dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonsinborde"
+            android:fontFamily="@font/komika1"
+            android:gravity="center"
+            android:onClick="start"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnExitRanking"
+            android:layout_width="103dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="200dp"
+            android:background="@drawable/buttonsinborde"
+            android:fontFamily="@font/komika1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

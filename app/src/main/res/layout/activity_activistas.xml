@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondointroduccion"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtScoreActivistas"
+        android:layout_width="361dp"
+        android:layout_height="142dp"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/komika1"
+        android:gravity="center"
+        android:textColor="@color/amarillo"
+        android:textSize="@dimen/tamanoLetraPuntos" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgActivistas"
+            android:layout_width="416dp"
+            android:layout_height="469dp"
+            android:layout_marginLeft="80dp" />
+
+        <TextView
+            android:id="@+id/txtExplicacionActivistas"
+            android:layout_width="449dp"
+            android:layout_height="333dp"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/cuadroexplicacionconborde"
+            android:fontFamily="@font/komika1"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingTop="35dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="35dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnRankingActivistas"
+                android:layout_width="@dimen/anchoBandera"
+                android:layout_height="90dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="420dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/buttonconborde"
+                android:fontFamily="@font/komika1"
+                android:gravity="center"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

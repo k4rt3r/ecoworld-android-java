@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtNumero"
+        android:layout_width="153dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/komika1"
+        android:paddingTop="20dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/amarillo"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txtNombreJugador"
+        android:layout_width="273dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/komika1"
+        android:paddingTop="20dp"
+        android:text="Moonwalker"
+        android:textAlignment="center"
+        android:textColor="@color/amarillo"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtPuntosJugador"
+        android:layout_width="153dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/komika1"
+        android:paddingTop="20dp"
+        android:text="1000"
+        android:textAlignment="center"
+        android:textColor="@color/amarillo"
+        android:textSize="25dp" />
+
+</LinearLayout>

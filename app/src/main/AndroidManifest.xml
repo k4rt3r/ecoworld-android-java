@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ecoworld">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ecoworldicono"
+        android:label="EcoWorld"
+        android:roundIcon="@drawable/ecoworldicono"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".ManagersActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TeachersActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".DevelopersActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CreditsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ExitActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".RankingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivistActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".WinActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".QuestionsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MapActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IntroActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UserActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

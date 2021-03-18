@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMapActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/americaselected"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/botonSalirMap"
+            android:layout_width="103dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonsinborde"
+            android:fontFamily="@font/komika1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/txtAyudasMap"
+            android:layout_width="240dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/nuvecolor"
+            android:fontFamily="@font/komika1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"></Button>
+
+        <TextView
+            android:id="@+id/txtChronoMap"
+            android:layout_width="165dp"
+            android:layout_height="214dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/crono"
+            android:gravity="center_horizontal"
+            android:paddingTop="60dp"
+            android:textColor="@color/black"
+            android:textSize="90dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="750dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtPreguntaMap"
+            android:layout_width="700dp"
+            android:layout_height="163dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/cuadroenunciadopregunta"
+            android:fontFamily="@font/komika1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"></TextView>
+
+        <LinearLayout
+            android:layout_width="750dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgLogoMap"
+                android:layout_width="141dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/ecoworldicono"></ImageView>
+
+            <TextView
+                android:id="@+id/txtExplicacionMap"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/cuadroexplicacionconborde"
+                android:fontFamily="@font/komika1"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/altoBandera"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/respuesta1Map"
+                    android:layout_width="@dimen/anchoRespuesta"
+                    android:layout_height="@dimen/altoRespuesta"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonrespuestagenericaconborde"
+                    android:fontFamily="@font/komika1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+
+                    ></Button>
+
+                <Button
+                    android:id="@+id/respuesta2Map"
+                    android:layout_width="@dimen/anchoRespuesta"
+                    android:layout_height="@dimen/altoRespuesta"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/buttonrespuestagenericaconborde"
+                    android:fontFamily="@font/komika1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/respuesta3Map"
+                    android:layout_width="@dimen/anchoRespuesta"
+                    android:layout_height="@dimen/altoRespuesta"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/buttonrespuestagenericaconborde"
+                    android:fontFamily="@font/komika1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"></Button>
+
+                <Button
+                    android:id="@+id/respuesta4Map"
+                    android:layout_width="@dimen/anchoRespuesta"
+                    android:layout_height="@dimen/altoRespuesta"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/buttonrespuestagenericaconborde"
+                    android:fontFamily="@font/komika1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    android:textStyle="bold"></Button>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtScoreMap"
+            android:layout_width="wrap_content"
+            android:layout_height="142dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/komika1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/amarillo"
+            android:textSize="30sp"></TextView>
+
+        <Button
+            android:id="@+id/botonJugarMap"
+            android:layout_width="@dimen/anchoBandera"
+            android:layout_height="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/buttonconborde"
+            android:fontFamily="@font/komika1"
+            android:gravity="center"
+            android:onClick="start"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

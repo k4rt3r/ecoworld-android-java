@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondointroduccion"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="282dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:background="@drawable/titulo"
+        android:orientation="horizontal"></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_weight="50"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnCatalan"
+                android:layout_width="@dimen/anchoBandera"
+                android:layout_height="@dimen/altoBandera"
+                android:layout_margin="10dp"
+                android:background="@drawable/banderacat"></Button>
+
+            <TextView
+                android:id="@+id/txtCatalan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/komika1"
+                android:text="@string/catala"
+                android:textColor="@color/amarillo"
+                android:textSize="@dimen/tamanoNombreBandera"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEspanol"
+                android:layout_width="@dimen/anchoBandera"
+                android:layout_height="@dimen/altoBandera"
+                android:layout_margin="10dp"
+                android:background="@drawable/banderaespanol"></Button>
+
+            <TextView
+                android:id="@+id/txtEspanol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/komika1"
+                android:text="@string/espanol"
+                android:textColor="@color/amarillo"
+                android:textSize="@dimen/tamanoNombreBandera"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnIngles"
+                android:layout_width="@dimen/anchoBandera"
+                android:layout_height="@dimen/altoBandera"
+                android:layout_margin="10dp"
+                android:background="@drawable/banderaingles"></Button>
+
+            <TextView
+                android:id="@+id/txtIngles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/komika1"
+                android:text="@string/ingles"
+                android:textColor="@color/amarillo"
+                android:textSize="@dimen/tamanoNombreBandera"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:layout_weight="30"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="@dimen/anchoBoton"
+            android:layout_height="@dimen/altoBoton"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonconborde"
+            android:fontFamily="@font/komika1"
+            android:text="Start"
+            android:textColor="#000000"
+            android:textSize="@dimen/tamanoLetraBoton" />
+    </LinearLayout>
+
+
+</LinearLayout>

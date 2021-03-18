@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondointroduccion"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buttonsinborde"
+        android:fontFamily="@font/komika1"
+        android:gravity="center"
+        android:text="SETTINGS"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="100dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+
+        <TextView
+            android:id="@+id/txtUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/komika1"
+            android:paddingRight="30dp"
+            android:text="USERNAME"
+            android:textColor="@color/amarillo"
+            android:textSize="40sp"></TextView>
+
+        <EditText
+            android:id="@+id/editTxtUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cuadroedittext"
+            android:fontFamily="@font/komika1"
+            android:inputType="textPersonName"
+            android:maxLength="15"
+            android:paddingTop="20dp"
+            android:paddingBottom="23dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_weight="50"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEasy"
+                android:layout_width="259dp"
+                android:layout_height="176dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/nuvecolor"
+                android:fontFamily="@font/komika1"
+                android:text="@string/easy"
+                android:textColor="@color/black"
+                android:textSize="30sp"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnNormal"
+                android:layout_width="259dp"
+                android:layout_height="176dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/nuvecolor"
+                android:fontFamily="@font/komika1"
+                android:text="@string/normal"
+                android:textColor="@color/black"
+                android:textSize="30sp"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnHard"
+                android:layout_width="259dp"
+                android:layout_height="176dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/nuvecolor"
+                android:fontFamily="@font/komika1"
+                android:text="@string/hard"
+                android:textColor="@color/black"
+                android:textSize="30sp"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:layout_weight="30"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonconborde"
+            android:fontFamily="@font/komika1"
+            android:onClick="start"
+            android:text="CONTINUE"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>

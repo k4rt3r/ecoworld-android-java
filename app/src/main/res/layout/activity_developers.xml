@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondointroduccion"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtDevelopers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/komika1"
+        android:textColor="@color/amarillo"
+        android:textSize="40dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:textStyle="bold">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtDaniel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/komika1"
+                android:text="DANIEL MARTOS"
+                android:textColor="@color/amarillo"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imgDaniel"
+                android:layout_width="308dp"
+                android:layout_height="275dp"
+                android:src="@drawable/daniel"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSantiago"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="00dp"
+                android:fontFamily="@font/komika1"
+                android:text="SANTIAGO MARESCA"
+                android:textColor="@color/amarillo"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imgSantiago"
+                android:layout_width="308dp"
+                android:layout_height="275dp"
+                android:src="@drawable/santiago"></ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtGuillem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/komika1"
+                android:text="GUILLEM RUBIO"
+                android:textColor="@color/amarillo"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imgGuillem"
+                android:layout_width="308dp"
+                android:layout_height="275dp"
+                android:src="@drawable/guillem"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtJoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/komika1"
+                android:text="JOAN SÀNCHEZ"
+                android:textColor="@color/amarillo"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imgJoan"
+                android:layout_width="308dp"
+                android:layout_height="275dp"
+                android:src="@drawable/joan"></ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chronoDevelopers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>

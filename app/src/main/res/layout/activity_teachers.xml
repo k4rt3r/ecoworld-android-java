@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondointroduccion"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTeachers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/komika1"
+        android:textColor="@color/amarillo"
+        android:textSize="40dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:textStyle="bold">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtJose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/komika1"
+                android:text="José Luis G ."
+                android:textColor="@color/amarillo"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imgJose"
+                android:layout_width="308dp"
+                android:layout_height="275dp"
+                android:src="@drawable/joseluis"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtFrancisco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="@font/komika1"
+                android:text="FRANCISCO F ."
+                android:textColor="@color/amarillo"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imgFrancisco"
+                android:layout_width="308dp"
+                android:layout_height="275dp"
+                android:src="@drawable/francisco"></ImageView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtAlba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:fontFamily="@font/komika1"
+                android:text="ALBA M ."
+                android:textColor="@color/amarillo"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imgAlba"
+                android:layout_width="308dp"
+                android:layout_height="275dp"
+                android:src="@drawable/alba"></ImageView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtJohnny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="@font/komika1"
+                android:text="Jonathan M ."
+                android:textColor="@color/amarillo"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imgJohnny"
+                android:layout_width="308dp"
+                android:layout_height="275dp"
+                android:src="@drawable/johnny"></ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chronoTeachers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
