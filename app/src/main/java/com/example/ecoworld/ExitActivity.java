@@ -47,7 +47,7 @@ public class ExitActivity extends AppCompatActivity {
             }
         });
     }
-    //prueba
+    //prueba commit
     //SETTEAMOS EL TEXTO DE LA PREGUNTA SEGUN EL IDIOMA DEL JUGADOR.
     public void cambiarIdioma(Jugador jugador, Button btnNoExit, Button btnSiExit,
                               TextView logoBocadilloIntroExit) {
